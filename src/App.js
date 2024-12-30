@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ShoppingCart, } from 'lucide-react';
+
 
 import Image1 from './assets/aman_creativelead.JPG';
 import Image2 from './assets/_DSC0450.JPG';
@@ -87,29 +87,7 @@ const App = () => {
               <p className="text-xl text-blue-300">{profileData.title}</p>
             </div>
 
-            <div className="border-t border-b border-slate-700/50 py-6 backdrop-blur-sm bg-slate-900/30 rounded-lg p-4">
-              <div className="py-4">
-                <div className="text-sm text-gray-400 italic mb-1 animate-pulse">
-                  you will underpay me anyway
-                </div>
-                <div className="flex items-center gap-2">
-                  <div className="text-3xl font-bold text-blue-600 line-through">
-                    ₹{profileData.salary}/month
-                  </div>
-                </div>
-              </div>
-              <div className="flex gap-4 mt-4">
-                <button
-                  onClick={() => document.querySelector('footer')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-500 hover:to-blue-600 text-white px-6 py-2 rounded-lg flex items-center gap-2 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/20"
-                >
-                  <ShoppingCart size={20} />
-                  Hire Now
-                </button>
-               
-              
-            </div>
-          </div>
+            
 
           <div className="transform transition-all duration-300 hover:translate-x-2">
             <h2 className="text-2xl font-bold text-blue-300">About This Developer</h2>
