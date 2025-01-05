@@ -1,5 +1,5 @@
 import React from 'react';
-import { Instagram, Star, TrendingUp, Users, Eye, CheckCircle2, ExternalLink, ChevronDown } from 'lucide-react';
+import { Instagram, Star, TrendingUp, Users, Eye, CheckCircle2, ExternalLink } from 'lucide-react';
 import natureday from '../assets/nd_logo_transparent.png';
 import maxus from '../assets/maxus_logo.png';
 import walyas from '../assets/walyas_logo_gs.png';
