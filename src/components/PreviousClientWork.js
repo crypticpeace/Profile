@@ -213,27 +213,27 @@ const PreviousClientWork = () => {
       title: "TEDX2023 & TEDX2024",
       imageUrl: ted,
       description: "Complete visual identity and branding materials.",
-      detailsUrl: "https://example.com/event-poster-series-details"
+      detailsUrl: "https://www.behance.net/gallery/216084853/Tedx-Graphics"
     },
     {
       title: "Zephyr 2023",
       imageUrl: zephyr,
       description: "Eye-catching designs for promotional use.",
-      detailsUrl: "https://example.com/event-poster-series-details"
+      detailsUrl: "https://www.behance.net/gallery/216085233/Zephyr"
     },
 
     {
       title: "Sojourn 2023",
       imageUrl: sojourn,
       description: "Complete visual identity and branding materials.",
-      detailsUrl: "https://example.com/event-poster-series-details"
+      detailsUrl: "https://www.behance.net/funleawitham"
     },
 
     {
       title: "Tspark 2023",
       imageUrl: tspark,
       description: "Jersey and Logo Designing",
-      detailsUrl: "https://example.com/event-poster-series-details"
+      detailsUrl: "https://www.behance.net/gallery/216085097/Tshirt-Designs"
     }
 
   ];
@@ -418,12 +418,6 @@ const PreviousClientWork = () => {
                   </div>
                 </div>
               </div>
-
-              {/* Show More Button */}
-              <button className="w-full mt-2 text-sm text-blue-400 hover:text-blue-300 transition-all duration-300 flex items-center justify-center gap-1 group">
-                <span>Show project details</span>
-                <ChevronDown size={16} className="group-hover:translate-y-1 transition-transform duration-300" />
-              </button>
             </div>
           ))}
         </div>
